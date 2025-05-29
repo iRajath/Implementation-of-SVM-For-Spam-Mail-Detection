@@ -37,9 +37,7 @@ import pandas as pd
 data=pd.read_csv("spam.csv",encoding='windows-1252')
 
 data.head()
-
 data.info()
-
 data.isnull().sum()
 
 x=data["v1"].values
